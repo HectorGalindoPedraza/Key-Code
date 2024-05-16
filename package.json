@@ -1,0 +1,14 @@
+{
+  "name": "keyboard-codes",
+  "version": "1.0.0",
+  "description": "This is a simple tool to see each key code",
+  "main": "index.html",
+  "scripts": {
+    "run": "npx live-server index.html"
+  },
+  "author": "hecgph",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.1.0"
+  }
+}

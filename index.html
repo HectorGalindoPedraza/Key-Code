@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Key code</title>
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/favicons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/favicons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./assets//favicons/site.webmanifest" />
+    <style>
+      body {
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #010101;
+        color: #0e8307;
+      }
+      ul {
+        height: 90vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+      }
+      header {
+        width: 100%;
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>Key Code</h1>
+    </header>
+    <ul id="root"></ul>
+
+    <audio src="./assets/audio/key.wav"></audio>
+    <script src="./src/app.js"></script>
+  </body>
+</html>
